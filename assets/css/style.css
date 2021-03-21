@@ -1,0 +1,358 @@
+/*   Theme default css */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* 
+font-family: 'Poppins', sans-serif;
+*/
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #666666;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+button {
+  cursor: pointer;
+}
+
+a:focus,
+.button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+a:focus,
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+a,
+button {
+  color: inherit;
+  outline: medium none;
+}
+
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
+  outline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  color: #54c19a;
+  margin-top: 0px;
+  font-weight: 900;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+.container-fluid {
+  max-width: 90%;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* default-css END 
+================================== */
+
+.all-content {
+  width: 100%;
+}
+.header-area {
+  padding-top: 30px;
+}
+
+.head .stors {
+  display: none;
+  align-items: center;
+  justify-content: right;
+  position: relative;
+  z-index: 9;
+}
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.head .stors a {
+  display: block;
+  width: max-content;
+}
+
+.head .stors a img {
+  width: 110px !important;
+  margin: 0;
+  margin-left: 12px;
+}
+a.logo {
+  display: block;
+  width: max-content;
+  position: relative;
+  z-index: 2;
+}
+a.logo img {
+  max-width: 300px;
+}
+.hero-area {
+  padding-top: 30px;
+  height: 55vh;
+  display: flex;
+  align-items: center;
+}
+.stors {
+  display: flex;
+  justify-content: center;
+}
+
+.stors img {
+  width: 200px !important;
+  margin: 0 20px;
+}
+
+.hero-wrp {
+  text-align: center;
+  max-width: max-content;
+  margin: auto;
+  transition: 3s;
+}
+.owls .owl-item.active .hero-wrp {
+  bottom: 0px;
+  opacity: 1;
+}
+.hero-wrp h1 {
+  font-size: 68px;
+  font-weight: 600;
+  text-align: left;
+  margin: auto;
+  margin-bottom: 80px;
+}
+.img-frame {
+  text-align: center;
+  position: relative;
+  width: 385px;
+  margin: auto;
+  transition: 3s;
+}
+.owls .owl-item.active .img-frame {
+  bottom: 0px;
+  opacity: 1;
+}
+.single-frame {
+  background-size: 95% 95%;
+  background-position: center;
+  border-radius: 70px;
+  background-repeat: no-repeat;
+  width: 245px;
+  margin-left: auto;
+  position: absolute;
+  height: 500px;
+  left: 0px;
+  margin-right: 0;
+}
+.single-frame.smg {
+  position: unset;
+}
+
+.single-frame img {
+  width: 100%;
+  height: 100%;
+}
+.f-wrp p {
+  margin: 0;
+  text-align: center;
+  color: #000;
+  position: relative;
+  z-index: 2;
+}
+.f-wrp {
+  padding: 10px 0;
+  margin-top: 20px;
+}
+.dots {
+  width: 20px;
+  height: 100px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 0.3s;
+  opacity: 0;
+}
+
+.dots .dot {
+  width: 20px;
+  height: 20px;
+  background: #54c19a;
+  margin: 15px 0;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.f-wrp p span.spc {
+  display: inline-block;
+  width: 20px;
+}
+button.btn {
+  border: none;
+  border-radius: 2px;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 505px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  height: 505px;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-container,
+.swiper-wrapper,
+.swiper-wrapper .row {
+  width: 100%;
+}
+
+.swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  background: #5ec4a0;
+  opacity: 0.6;
+}
+.swiper-pagination-bullet-active {
+  opacity: 1;
+}
+.modal-body p {
+  font-weight: 400;
+  font-size: 15px;
+}
+.f-wrp span {
+  cursor: pointer;
+}
+div#gapp .modal-content {
+  border-radius: 30px;
+  border: 3px solid black;
+  padding: 30px;
+  text-align: center;
+}
+
+div#gapp .modal-content button.btn-close {
+  position: absolute;
+  right: 15px;
+  top: 13px;
+  font-weight: 900;
+  font-size: 20px;
+  z-index: 999;
+}
+button:focus {
+  box-shadow: none !important;
+}
+form.getapp h1 {
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 30px;
+}
+
+form.getapp .inputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+form.getapp .inputs input {
+  width: 65%;
+  height: 40px;
+  border-radius: 30px;
+  outline: none;
+  border: 2px solid #000;
+  padding: 10px;
+  font-weight: 900;
+  color: #000;
+}
+
+form.getapp .inputs input::placeholder {
+  font-weight: 900;
+  color: #000;
+}
+
+form.getapp .inputs button {
+  height: 40px;
+  padding: 0 10px;
+  outline: none;
+  border: 2px solid #000;
+  border-radius: 30px;
+  background: no-repeat;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #54c19a;
+}
+
+.MainLogo {
+  width: auto;
+  height: 120px;
+}
+
+@media only screen and (max-width: 780px) {
+  .MainLogo {
+    width: auto;
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .MainLogo {
+    width: auto;
+    height: 70px;
+  }
+}
